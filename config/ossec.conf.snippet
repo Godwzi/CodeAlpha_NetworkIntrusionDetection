@@ -1,0 +1,17 @@
+# ossec.conf — Wazuh <-> Suricata integration
+#
+# Add this <localfile> block to feed Suricata's JSON alert log (eve.json)
+# into the Wazuh manager's log collector, so alerts become searchable
+# and visualizable in the Wazuh dashboard.
+#
+# File: /var/ossec/etc/ossec.conf
+# Placement: anywhere inside <ossec_config>...</ossec_config>,
+#            alongside the other <localfile> blocks (before <ruleset>)
+
+<localfile>
+  <log_format>json</log_format>
+  <location>/var/log/suricata/eve.json</location>
+</localfile>
+
+# After adding, restart the manager to apply:
+#   sudo systemctl restart wazuh-manager

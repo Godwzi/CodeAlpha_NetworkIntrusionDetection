@@ -1,0 +1,16 @@
+# suricata.yaml — network interface fix
+#
+# By default, Suricata's af-packet configuration listens on `eth0`, which
+# does not exist on this Ubuntu 24.04 VM (UTM/QEMU networking names the
+# interface `enp0s1`). Without this fix, Suricata reports as "running"
+# under systemd but never actually captures any packets.
+#
+# File: /etc/suricata/suricata.yaml
+
+# BEFORE
+af-packet:
+  - interface: eth0
+
+# AFTER
+af-packet:
+  - interface: enp0s1
