@@ -233,7 +233,3 @@ CodeAlpha_NetworkIntrusionDetection/
 - [Emerging Threats Open](https://rules.emergingthreats.net/) — the community ruleset it ships with
 - [Wazuh](https://wazuh.com/) — log analysis and dashboard visualization
 - Ubuntu 24.04 LTS, UTM, nmap, curl — everything else needed to build and test this
-
-## About
-
-Part of the CodeAlpha Cyber Security Internship — I'm completing 2-3 of the 4 available tasks. Check my other repos for the rest.
