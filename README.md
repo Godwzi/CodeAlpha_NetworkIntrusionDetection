@@ -1,10 +1,8 @@
 # CodeAlpha Network Intrusion Detection System
 
-**Task 4 — CodeAlpha Cyber Security Internship**
+A working network intrusion detection setup built with Suricata on an Ubuntu VM, with custom detection rules and alerts visualized through Wazuh.
 
-This is my Task 4 submission for the CodeAlpha Cyber Security Internship: a working network intrusion detection setup built with Suricata on an Ubuntu VM, with custom detection rules and alerts visualized through Wazuh.
-
-I wanted to actually go through the process of standing up an IDS end-to-end rather than just reading about how one works — getting the interface config right, writing rules that actually match traffic, and wiring the alerts into a dashboard I could search through.
+I wanted to actually go through the process of standing up an IDS end-to-end rather than just reading about how one works — getting the interface config right, writing rules that actually match traffic, and wiring the alerts into a dashboard I could search through. Built as part of the CodeAlpha Cyber Security Internship.
 
 ## What it does
 
@@ -238,4 +236,4 @@ CodeAlpha_NetworkIntrusionDetection/
 
 ## About
 
-This is Task 4 for my CodeAlpha Cyber Security Internship. I'm completing 2-3 of the 4 available tasks for the internship — check my other repos for the rest.
+Part of the CodeAlpha Cyber Security Internship — I'm completing 2-3 of the 4 available tasks. Check my other repos for the rest.
