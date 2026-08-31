@@ -2,7 +2,7 @@
 
 A working network intrusion detection setup built with Suricata on an Ubuntu VM, with custom detection rules and alerts visualized through Wazuh.
 
-I wanted to actually go through the process of standing up an IDS end-to-end rather than just reading about how one works — getting the interface config right, writing rules that actually match traffic, and wiring the alerts into a dashboard I could search through. Built as part of the CodeAlpha Cyber Security Internship.
+This is part of my CodeAlpha Cyber Security Internship. I wanted to actually stand up an IDS end-to-end instead of just reading about how one works: get the interface config right, write rules that actually match traffic, wire the alerts into a dashboard I could search through.
 
 ## What it does
 
